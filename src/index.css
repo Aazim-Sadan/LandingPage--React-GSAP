@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
-    width: 80%;
-} */
+
+.menu li {
+    @apply text-sm text-gray-600
+}

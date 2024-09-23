@@ -1,5 +1,7 @@
 import React from 'react';
 import img from '../assets/img1.png'
+import img9 from '../assets/img9.png'
+
 
 const SectionOne = () => {
   return (
@@ -33,22 +35,25 @@ const SectionOne = () => {
       </div>
 
 
-      <div className="md:w-1/2 mt-10 md:mt-0 mr-[120px] flex items-center justify-center relative">
-       <div className='border-[1px] py-9 px-7 rounded-lg '>
-        <img
-          className="w-[280px] h-auto z-10"
-          src={`${img}`} 
-        />
-        </div>
-        <div className="absolute -bottom-5 right-5">
+      <div className="md:w-1/2 mt-10 md:mt-0 mr-[120px] flex items-center justify-center r">
+        <div className='border-[1px] py-10 px-7 rounded-lg ml-[220px] relative'>
           <img
-            className="w-40 h-auto"
-            src="https://example.com/person-image" 
-            alt="Person pointing"
+            className="w-[280px] h-auto"
+            src={`${img}`}
           />
+          <div className=" mx-[105px] absolute top-[120px]">
+            <img
+              src={img9}
+              alt="You Are Enough"
+              className="w-[70px] animate-zoom mb-[222px] z-40" 
+            />
+          </div>
         </div>
+
+
       </div>
     </div>
+
   );
 };
 

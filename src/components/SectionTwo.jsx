@@ -7,9 +7,9 @@ import img4 from '../assets/img4.svg'
 function SectionTwo() {
   return (
     <div className='w-[80%] mx-auto flex items-center justify-between text-center mt-[80px]'>
-    <div className='flex-1 px-4'> {/* Added flex-1 to allow even spacing and px-4 for padding */}
-      <img className='h-[130px] mx-auto' src={`${img2}`} alt="Higher Profits" /> {/* Centered image */}
-      <h2 className='text-2xl font-bold mt-4 pb-7'>Higher Profits</h2> {/* Added margin for spacing */}
+    <div className='flex-1 px-4'> 
+      <img className='h-[130px] mx-auto' src={`${img2}`} alt="Higher Profits" /> 
+      <h2 className='text-2xl font-bold mt-4 pb-7'>Higher Profits</h2> 
       <p className='text-gray-600'>We offer some of the lowest prices in the industry because print providers continuously compete to win your business.</p>
     </div>
   
